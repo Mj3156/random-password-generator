@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Generate a<span> Random Password</span></h1>
+            <h4>Never use a insecure password again</h4>
+        </div>
+        <input type="text" id="pass-el" class="pass-field" placeholder="Your password">
+        <p id="pass-quality" class="pass-quality"></p>
+        <i class="fa-regular fa-copy icon"></i>
+        <div class="checkboxex-box">
+            <span><label for="total-length-input">Enter password length</label>
+                <input type="number" value="10" name="totalLength" id="total-length-input"></span>
+
+            <span><label for="uppercase-box">ABC</label>
+                <input type="checkbox" id="uppercase-box" name="upper case box" checked></span>
+
+            <span><label for="lowercase-box">abc</label>
+                <input type="checkbox" id="lowercase-box" name="lower case box"></span>
+
+            <span><label for="number-box">123</label>
+                <input type="checkbox" id="number-box" name="number box"></span>
+
+            <span><label for="symbol-box">@#$</label>
+                <input type="checkbox" id="symbol-box" name="symbol box" checked></span>
+        </div>
+        <button id="generate-pass-btn" class="generate-pass-btn">Generate Password</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

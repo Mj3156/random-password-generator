@@ -1,0 +1,96 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100&family=Roboto+Condensed:ital,wght@1,300&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;1,8..144,100;1,8..144,200;1,8..144,300&family=Tourney:wght@100&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100&family=Roboto+Condensed:ital,wght@1,300&family=Roboto+Serif:ital,opsz,wght@1,8..144,300&family=Roboto+Slab:wght@600&family=Tourney:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  background: #1f2937;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  height: 50vh;
+  line-height: 50px;
+  margin-top: 150px;
+  color: white;
+}
+
+h1 {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 34px;
+  color: white;
+}
+
+h4 {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  color: #d5d4d8;
+}
+.generate-pass-btn {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  font-family: "Hanken Grotesk", sans-serif;
+  padding: 10px;
+  width: 30%;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 19px;
+  color: rgb(255, 255, 255);
+  background-color: #10b981;
+}
+.generate-pass-btn:active {
+  transform: scale(0.98);
+}
+
+.pass-field {
+  background-color: rgb(243, 221, 221);
+  padding: 12px 10px 17px 10px;
+  border: none;
+  border-radius: 5px;
+  width: 50%;
+}
+div .pass-quality {
+  display: inline;
+  position: absolute;
+  top: 60%;
+  right: 51%;
+  min-width: 80px;
+  background-color: #10b981;
+  line-height: 20px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.checkboxex-box {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 500px;
+}
+
+.checkboxex-box #total-length-input {
+  color: rgb(6, 0, 0);
+  background-color: white;
+  width: 40px;
+  height: 18px;
+  margin-top: 12px;
+}
+.checkboxex-box span {
+  display: flex;
+  justify-content: space-between;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.mehul {
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
